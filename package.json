@@ -1,0 +1,16 @@
+{
+  "name": "manicure-bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot de agendamento de manicure via WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7",
+    "dayjs": "^1.11.13"
+  },
+  "type": "commonjs"
+}
